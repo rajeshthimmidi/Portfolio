@@ -63,7 +63,7 @@ const Experience = () => {
             <SiHcl color="#0066A1" size={90} className="min-w-[70px] min-h-[70px]" />
             <span className="text-white">
               <h2 className="leading-tight text-xl md:text-2xl font-bold text-[#7ea2ff] drop-shadow mb-1">Senior Software Engineer, <span className="text-[#b3c7f9]">HCL Software</span></h2>
-              <p className="text-xs md:text-sm leading-tight font-semibold text-[#b3c7f9] mb-2">Aug 2023 - Present <span className="italic text-gray-400">(2 years)</span></p>
+              <p className="text-xs md:text-sm leading-tight font-semibold text-[#b3c7f9] mb-2">Aug 2023 - Present </p>
               <ul className="text-sm p-2 list-disc ml-2 space-y-2">
                 <li>Contributed as a Developer to the globally adopted <span className="font-semibold text-[#7ea2ff]">Workload Automation</span> project by resolving issues and implementing enhancements based on customer feedback.</li>
                 <li>Debugged, troubleshot, and resolved UI/UX issues, leading to improved usability and customer satisfaction.</li>
