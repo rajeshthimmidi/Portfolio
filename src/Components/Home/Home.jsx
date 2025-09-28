@@ -73,7 +73,7 @@ const Home = () => {
             <AnimatedHello />
           </h1><br />
           <p className="text-sm md:text-2xl tracking-tight ">
-            Results-driven software developer with 2 years of hands-on experience in Java, React.js, and JavaScript. Adept at designing and building scalable web applications, I am committed to delivering high-quality, efficient solutions that drive organizational success. Passionate about continuous learning and innovation, I strive to enhance my technical expertise while contributing to impactful, forward-thinking projects.
+            Results-driven software developer with 2+ years of hands-on experience in Java, React.js, and JavaScript. Adept at designing and building scalable web applications, I am committed to delivering high-quality, efficient solutions that drive organizational success. Passionate about continuous learning and innovation, I strive to enhance my technical expertise while contributing to impactful, forward-thinking projects.
           </p>
         <ContactUs />
         </div>
