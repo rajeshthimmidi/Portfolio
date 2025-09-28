@@ -6,3 +6,6 @@
 *{
     scroll-behavior: smooth;
 }
+.shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(249, 248, 248, 0.964), 0 4px 6px -2px rgb(246, 245, 245);
+}
