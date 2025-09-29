@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import emailjs from 'emailjs-com';
 
 
-const ContactUs = ({ showModal, setShowModal }) => {
+
+const ContactUs = () => {
+  const [showModal, setShowModal] = useState(false);
   const [fromEmail, setFromEmail] = useState("");
   const [name, setName] = useState("");
   const [title, setTitle] = useState("");
@@ -16,7 +18,7 @@ const ContactUs = ({ showModal, setShowModal }) => {
       // 1. Send notification to owner (you)
       await emailjs.send(
         'service_3opkm69', // your service ID
-        'template_notification', // notification template ID (To: timmidirajesh@gmail.com)
+        'template_ccd8y8t', // notification template ID (To: timmidirajesh@gmail.com)
         {
           email: fromEmail, // sender's email
           name,
@@ -29,7 +31,7 @@ const ContactUs = ({ showModal, setShowModal }) => {
       // 2. Send auto-reply to sender
       await emailjs.send(
         'service_3opkm69', // your service ID
-        'template_auto_reply', // auto-reply template ID (To: {{email}})
+        'template_16re057', // auto-reply template ID (To: {{email}})
         {
           email: fromEmail, // sender's email
           name,

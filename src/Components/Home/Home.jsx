@@ -66,18 +66,18 @@ const Home = () => {
     }
   };
   return (
-    <div className="min-h-screen w-full">
-      <div className="text-white flex w-full justify-between p-10 md:p-20 flex-col md:flex-row items-center">
-        <div className="md:w-3/4 md:pt-10 order-2 md:order-1">
+    <div className="w-full">
+      <div className="text-white flex w-full justify-between p-6 md:p-20 flex-col md:flex-row items-center">
+  <div className="md:w-3/4 md:pt-10 order-2 md:order-1 mb-4 md:mb-0">
           <h1 className="text-xl md:text-6xl font-extrabold flex leading-normal tracking-tighter text-white drop-shadow-[0_2px_16px_rgba(59,130,246,0.7)] relative overflow-visible min-h-[2.5em]">
             <AnimatedHello />
           </h1><br />
           <p className="text-sm md:text-2xl tracking-tight ">
             Results-driven software developer with 2+ years of hands-on experience in Java, React.js, and JavaScript. Adept at designing and building scalable web applications, I am committed to delivering high-quality, efficient solutions that drive organizational success. Passionate about continuous learning and innovation, I strive to enhance my technical expertise while contributing to impactful, forward-thinking projects.
           </p>
-        <ContactUs />
+  <ContactUs />
         </div>
-        <div className="order-1 md:order-2 flex justify-center md:justify-start w-full md:w-2/5 mt-8 md:mt-16">
+  <div className="order-1 md:order-2 flex justify-center md:justify-start w-full md:w-2/5 mt-4 md:mt-16">
           <div className="relative w-1/2 md:w-2/3 ml-0 md:ml-12 flex items-center justify-center">
             <span className="absolute inset-0 rounded-full animate-spin-slow bg-gradient-to-tr from-blue-500 via-cyan-400 to-purple-500 opacity-30 blur-lg z-0"></span>
             <img

@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { MdOutlineEmail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { FaArrowCircleUp } from "react-icons/fa";
+import ContactUs from "../ContactUs/ContactUs";
 
-const Footer = ({ onContactClick }) => {
+const Footer = () => {
+  const [showModal, setShowModal] = useState(false);
   // Scroll to top handler
   const handleScrollTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -20,13 +22,7 @@ const Footer = ({ onContactClick }) => {
           <h3 className="text-sm md:text-2xl font-normal">
             Feel Free To reach out!
           </h3>
-          <button
-            className="mt-4 text-white py-2 px-6 text-lg md:text-xl font-bold rounded-3xl bg-gradient-to-r from-blue-500 via-cyan-400 to-purple-500 shadow-lg shadow-cyan-400/40 ring-2 ring-cyan-300 hover:scale-110 hover:shadow-2xl hover:shadow-cyan-400/80 focus:outline-none focus:ring-4 focus:ring-cyan-300 transition-all duration-300 animate-pulse"
-            style={{ boxShadow: '0 0 16px 4px #22d3ee, 0 0 32px 8px #6366f1' }}
-            onClick={onContactClick}
-          >
-            Contact Me
-          </button>
+          <ContactUs />
         </div>
 
         <ul className="text-sm md:text-xl">

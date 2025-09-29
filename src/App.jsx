@@ -9,15 +9,14 @@ import Footer from './Components/Footer/Footer';
 
 const App = () => {
   return (
-<div className="bg-[#171d32] h-auto w-full overflow-hidden">
+    <div className="bg-[#171d32] h-auto w-full overflow-hidden">
       <Navbar />
-      < Home />
-      < About />
-      < Experience />
-      < Projects />
-      < Footer />
-      </div>
-   
+      <Home />
+      <About />
+      <Experience />
+      <Projects />
+      <Footer />
+    </div>
   );
 };
 
