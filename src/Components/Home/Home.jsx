@@ -14,7 +14,7 @@ const AnimatedHello = () => {
     return () => clearTimeout(timeout);
   }, [index]);
   return (
-    <span className="block relative z-10 animate-gradient-move bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent font-extrabold tracking-widest drop-shadow-lg text-shadow-glow">
+  <span className="block mt-6 relative z-10 animate-gradient-move bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent font-extrabold tracking-widest drop-shadow-lg text-shadow-glow">
       <span key={index} className="inline-block transition-all duration-300 ease-in-out animate-fadeinup">{steps[index]}</span>
       <span className="inline-block w-2 h-7 align-middle ml-1 animate-blink bg-gradient-to-b from-cyan-300 via-blue-400 to-purple-400 rounded shadow-lg" style={{verticalAlign:'middle', boxShadow: '0 0 8px 2px #7dd3fc'}}></span>
     </span>
@@ -75,7 +75,9 @@ const Home = () => {
           <p className="text-sm md:text-2xl tracking-tight ">
             Results-driven software developer with 2+ years of hands-on experience in Java, React.js, and JavaScript. Adept at designing and building scalable web applications, I am committed to delivering high-quality, efficient solutions that drive organizational success. Passionate about continuous learning and innovation, I strive to enhance my technical expertise while contributing to impactful, forward-thinking projects.
           </p>
-  <ContactUs />
+  <div className="mt-10 md:mt-16">
+    <ContactUs />
+  </div>
         </div>
   <div className="order-1 md:order-2 flex justify-center md:justify-start w-full md:w-2/5 mt-4 md:mt-16">
           <div className="relative w-1/2 md:w-2/3 ml-0 md:ml-12 flex items-center justify-center">

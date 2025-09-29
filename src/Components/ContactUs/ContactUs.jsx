@@ -56,9 +56,8 @@ const ContactUs = () => {
   return (
     <>
       <button
-        className="mt-10 md:mt-16 text-white py-2 px-6 text-lg md:text-xl font-bold rounded-3xl bg-gradient-to-r from-blue-500 via-cyan-400 to-purple-500 shadow-lg shadow-cyan-400/40 ring-2 ring-cyan-300 hover:scale-110 hover:shadow-2xl hover:shadow-cyan-400/80 focus:outline-none focus:ring-4 focus:ring-cyan-300 transition-all duration-300 animate-pulse"
+        className="mt-4 text-white py-2 px-6 text-lg md:text-xl font-semibold rounded-3xl bg-gradient-to-r from-blue-600 via-cyan-700 to-purple-700 shadow-md ring-1 ring-cyan-300 hover:scale-105 hover:shadow-lg hover:bg-gradient-to-r hover:from-blue-700 hover:via-cyan-600 hover:to-purple-800 focus:outline-none focus:ring-2 focus:ring-cyan-400 transition-all duration-200"
         onClick={() => setShowModal(true)}
-        style={{ boxShadow: '0 0 16px 4px #22d3ee, 0 0 32px 8px #6366f1' }}
       >
         Contact Me
       </button>

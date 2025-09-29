@@ -15,9 +15,9 @@ const Footer = () => {
     <>
       <div
         id="Footer"
-        className="flex justify-around bg-[#465697] text-white p-10 md:p-12 items-center"
+        className="flex justify-around bg-[#465697] text-white p-10 md:p-12 gap-5 items-center"
       >
-        <div className="flex flex-col gap-3 items-start">
+  <div className="flex flex-col gap-1 items-start">
           <h1 className="text-2xl md:text-6xl font-bold">Contact</h1>
           <h3 className="text-sm md:text-2xl font-normal">
             Feel Free To reach out!
